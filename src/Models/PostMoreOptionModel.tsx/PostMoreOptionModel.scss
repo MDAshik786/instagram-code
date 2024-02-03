@@ -1,0 +1,19 @@
+@import "../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../SCSS_StyleSheet/Function.scss";
+
+.content-name {
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.content-name:last-child {
+  border: none;
+}
+.content-name:nth-child(1),
+.content-name:nth-child(2) {
+  color: $redColor;
+  font-weight: 600;
+}

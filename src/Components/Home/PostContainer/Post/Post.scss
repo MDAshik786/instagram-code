@@ -1,0 +1,90 @@
+@import "../../../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../../../SCSS_StyleSheet/Function.scss";
+
+.single-post {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0 auto;
+  font-size: 0.9rem;
+
+  .post-img-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .post-img {
+      width: 100%;
+      border-radius: 0.2rem;
+
+      object-fit: cover;
+      flex-shrink: 0;
+      flex-grow: 0;
+      transition: translate 300ms ease-in-out;
+    }
+  }
+
+  .post-button-container {
+    position: relative;
+    .arrow-button {
+      @include buttonStyle(1.6rem, 1.6rem, 0, 50%, $whitesmoke, none);
+      @include displayFlexProperty(center, center, none);
+      position: absolute;
+      border-radius: 50%;
+      position: absolute;
+      top: 45%;
+      transform: translate(-50%);
+    }
+
+    .left-arrow-button {
+      left: 1.5rem;
+    }
+    .right-arrow-button {
+      right: 0rem;
+    }
+    .left,
+    .right {
+      @include heightWidthProperty(0.8rem, 0.8rem);
+    }
+
+    .like-gif {
+      position: absolute;
+      width: 28rem;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .like-comment-container {
+    .like {
+      @include heightWidthProperty(2rem, 2rem);
+    }
+    .icons {
+      color: $blackColor;
+
+      &:hover {
+        color: $darkGray;
+      }
+    }
+    .comment,
+    .save,
+    .send {
+      @include heightWidthProperty(1.6rem, 1.6rem);
+    }
+  }
+
+  .post-content {
+    .user-name {
+      font-weight: 600;
+    }
+  }
+  .like-container {
+    .likes {
+      font-weight: 600;
+    }
+  }
+}
+
+.gray-text {
+  color: $darkGray;
+}

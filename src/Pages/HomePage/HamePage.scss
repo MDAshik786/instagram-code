@@ -1,0 +1,29 @@
+@import "../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../SCSS_StyleSheet/Function.scss";
+
+.homepage {
+  width: 66rem;
+  margin: 0 auto;
+}
+
+.home-storyBar {
+  height: fit-content;
+  // height: 200px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  width: 700px;
+  text-align: center;
+
+  // &::-webkit-scrollbar {
+  //   width: 0;
+  // }
+}
+.arrow-button-container {
+  position: relative;
+}
+
+.store-and-post-container {
+  width: 65%;
+
+
+}

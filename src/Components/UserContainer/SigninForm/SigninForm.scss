@@ -1,0 +1,13 @@
+@import "../../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../../SCSS_StyleSheet/Function.scss";
+
+.border-line {
+  border-bottom: 1px solid $borderLightGray;
+  width: 7.5rem;
+}
+
+.signip-button {
+  @include buttonStyle(2.2rem, 95%, 0.5rem, 0.4rem, $mediumBlue, $whiteColor);
+  font-size: 0.9rem;
+  font-weight: 600;
+}

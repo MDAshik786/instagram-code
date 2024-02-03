@@ -1,0 +1,17 @@
+@import "../../../SCSS_StyleSheet//ColorVariable.scss";
+
+.name-container {
+  border-top: 1px solid $gray;
+  .name {
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .condition-box {
+    color: $darkGray;
+    font-weight: 600;
+  }
+  .verified-box {
+    border-top: 1px solid $blackColor;
+    font-weight: 600;
+  }
+}

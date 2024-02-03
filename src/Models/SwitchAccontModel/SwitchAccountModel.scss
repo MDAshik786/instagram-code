@@ -1,0 +1,24 @@
+@import "../../SCSS_StyleSheet/Function.scss";
+@import "../../SCSS_StyleSheet/ColorVariable.scss";
+
+.switch-account-model {
+  width: 27rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 1rem;
+
+  .cross-icons {
+    @include heightWidthProperty(1.6rem, 1.6rem);
+    position: absolute;
+    right: 0.7rem;
+    top: 0.9rem;
+  }
+
+  .profile-cotainer {
+    width: 100%;
+    min-height: 10rem;
+    border-bottom: 1px solid $borderLightGray;
+    border-top: 1px solid $borderLightGray;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../../SCSS_StyleSheet/Function.scss";
+@import "../../../SCSS_StyleSheet/ColorVariable.scss";
+
+.send-new-message {
+  font-size: 0.9rem;
+  width: 100%;
+  
+
+  .heading {
+    font-size: 1.2rem;
+  }
+
+  .send-button {
+    @include buttonStyle(
+      2.4rem,
+      fit-content,
+      0.5rem 1rem,
+      0.5rem,
+      $blueButtonColor,
+      $whiteColor
+    );
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}

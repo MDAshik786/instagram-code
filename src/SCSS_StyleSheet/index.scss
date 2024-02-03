@@ -1,0 +1,22 @@
+@import "./ColorVariable.scss";
+@import "./Function.scss";
+
+.blue-link {
+  color: $linkBlue;
+  font-weight: 600;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+.gray-conetent {
+  color: $darkGray;
+}
+
+.active-icons {
+  @include heightWidthProperty(0.5rem, 0.5rem);
+  border-radius: 50%;
+  background-color: $blueButtonColor;
+  display: block;
+}

@@ -1,0 +1,31 @@
+@import "../../../SCSS_StyleSheet/Function.scss";
+@import "../../../SCSS_StyleSheet/ColorVariable.scss";
+
+.message-user-container {
+  width: 24rem;
+
+  .username-container {
+    height: 5rem;
+  }
+  .username {
+    font-size: 1.3rem;
+
+    .down-arrow {
+      @include heightWidthProperty(1.2rem, 1.2rem);
+    }
+  }
+  .request-content {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .profile-suggestion-container {
+    height: calc(100vh - 17vh);
+    overflow-y: auto;
+    
+
+    .profile-suggestion {
+      margin: 0 auto;
+      width: 96%;
+    }
+  }
+}

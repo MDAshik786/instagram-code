@@ -1,0 +1,49 @@
+@import "../../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../../SCSS_StyleSheet/Function.scss";
+
+.profile-container {
+  width: 54%;
+  margin: 0 auto;
+
+  font-size: 1rem;
+
+  .story-container {
+    width: 40%;
+
+    .story-wrapper {
+      @include heightWidthProperty(10rem, 10rem);
+
+      .img-container {
+        @include heightWidthProperty(95%, 95%);
+
+        & img {
+          @include heightWidthProperty(95%, 95%);
+        }
+      }
+    }
+  }
+  .user-name {
+    font-size: 1.3rem;
+  }
+  .profile-button {
+    @include buttonStyle(
+      2rem,
+      fit-content,
+      0rem 0.5rem,
+      0.5rem,
+      $lihtGrayButtonColor,
+      none
+    );
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .counts{
+   b {
+    padding-right: 0.3rem;
+   }
+  }
+  .bio-container{
+    font-size: 0.9rem;
+  }
+}

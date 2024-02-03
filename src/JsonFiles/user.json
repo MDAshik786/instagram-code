@@ -1,0 +1,29 @@
+{
+  "userData": {
+    "emailPlaceHolder": "Email address",
+    "userNamePlaceHolder": "User Name",
+    "firstNamePlaceHolder": "First Name",
+    "lastNamePlaceHolder": "Last Name",
+    "passwordPlaceHolder": "Password",
+    "phonePlaceHolder": "Mobile Number"
+  },
+  "signupData": {
+    "heading": " Sign up to see photos and videos from your friends.",
+    "firstContent": " People who use our service may have uploaded your contact information to Instagram.",
+    "secondContent": "  By signing up, you agree to our",
+    "linkTags": {
+      "terms": "Terms,",
+      "privacyPolicy": "Privacy Policy",
+      "cookiesPolicy": "Cookies Policy.",
+      "learnMore": "Learn More"
+    },
+    "buttonTitle": "Sign Up",
+    "accountContent": "Have an account?"
+  },
+  "signinData": {
+    "orTitle": "OR",
+    "forgotPassword": "Forgotten your Password?",
+    "buttonTitle": "Log in",
+    "accountContent": "Don't have an account?"
+  }
+}

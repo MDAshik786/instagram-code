@@ -1,0 +1,44 @@
+@import "../../SCSS_StyleSheet/Function.scss";
+@import "../../SCSS_StyleSheet/ColorVariable.scss";
+
+.new-message-model {
+  width: 40rem;
+  font-size: 1rem;
+  gap: 1rem;
+
+  .heading {
+    text-align: center;
+  }
+
+  .cross-icons {
+    @include heightWidthProperty(1.5rem, 1.5rem);
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+  }
+  .meaasage-to-container {
+    border-bottom: 1px solid $borderLightGray;
+    border-top: 1px solid $borderLightGray;
+    padding: 1rem;
+  }
+  .searchUserInput {
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+  }
+  .suggesed-container {
+    height: 50vh;
+    overflow-y: auto;
+  }
+
+  .chat-button {
+    @include buttonStyle(
+      2.5rem,
+      95%,
+      0.5rem,
+      0.5rem,
+      $blueButtonColor,
+      $whiteColor
+    );
+    margin: 0 auto;
+  }
+}

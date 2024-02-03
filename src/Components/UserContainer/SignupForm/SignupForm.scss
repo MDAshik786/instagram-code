@@ -1,0 +1,52 @@
+@import "../../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../../SCSS_StyleSheet/Function.scss";
+
+.user-form-container,
+.already-account {
+  border: 1px solid $borderLightGray;
+  width: 22rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: $lightBlack;
+  letter-spacing: 0.2px;
+  border-radius: 0.4rem;
+
+  img {
+    width: 10rem;
+  }
+  .heading {
+    font-weight: 600;
+  }
+
+  .user-container,
+  .form-container {
+    width: 100%;
+  }
+
+  .user-input {
+    width: 95%;
+    height: 2.2rem;
+    border-radius: 0.3rem;
+    border: 1px solid $borderLightGray;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    background-color: $lightDarkWhite;
+  }
+
+  .signup-button {
+    @include buttonStyle(2.2rem, 95%, 0.5rem, 0.4rem, $mediumBlue, $whiteColor);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .content {
+    line-height: 1.1rem;
+    text-align: center;
+    padding: 0 0.1rem;
+  }
+
+  .passeord-input {
+    position: relative;
+  }
+}

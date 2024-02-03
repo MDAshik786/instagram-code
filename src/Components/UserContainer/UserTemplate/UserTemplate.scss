@@ -1,0 +1,24 @@
+@import "../../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../../SCSS_StyleSheet/Function.scss";
+
+.user-main {
+  padding-top: 3rem;
+
+  .already-account {
+    font-size: 0.9rem;
+  }
+}
+
+.blue-content {
+  color: $blueColor;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.password-content {
+  position: absolute;
+  right: 1rem;
+  top: 0.6rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}

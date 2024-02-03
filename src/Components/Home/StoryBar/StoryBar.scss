@@ -1,0 +1,34 @@
+@import "../../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../../SCSS_StyleSheet/Function.scss";
+
+.story-container {
+  .name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.9rem;
+    width: 4rem;
+    text-align: center;
+  }
+}
+
+.story-wrapper {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: linear-gradient(65deg, $lightYellow, $redColor);
+  border-radius: 50%;
+
+  .img-container {
+    width: 92%;
+    height: 92%;
+    background-color: $whiteColor;
+    border-radius: 50%;
+
+    img {
+      width: 93%;
+      height: 93%;
+      border-radius: 50%;
+      margin: auto;
+    }
+  }
+}

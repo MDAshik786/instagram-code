@@ -1,0 +1,34 @@
+@import "../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../SCSS_StyleSheet/Function.scss";
+
+.search-container {
+  .search-heading {
+    font-size: 1.6rem;
+    padding-left: 1rem;
+  }
+  .input-container {
+    padding: 1rem 1rem 1.5rem 1rem;
+    border-bottom: 1px solid $borderLightGray;
+    position: relative;
+
+    .cancel-button {
+      @include heightWidthProperty(1.5rem, 1.5rem);
+      position: absolute;
+      border-radius: 50%;
+      right: 1.4rem;
+      top: 1.4rem;
+      background-color: $lightGray;
+    }
+  }
+  .search-input {
+    @include heightWidthProperty(2.4rem, 100%);
+    background-color: $darkWhite;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    letter-spacing: 0.3px;
+  }
+  .result-container {
+    overflow-y: auto;
+    max-height: calc(100vh - 20vh);
+  }
+}

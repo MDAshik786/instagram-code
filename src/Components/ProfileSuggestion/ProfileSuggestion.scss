@@ -1,0 +1,24 @@
+@import "../../SCSS_StyleSheet/ColorVariable.scss";
+@import "../../SCSS_StyleSheet/Function.scss";
+
+.profile-suggestion {
+  height: fit-content;
+  width: 23rem;
+
+  img {
+    @include heightWidthProperty(3.3rem, 3.3rem);
+    border-radius: 50%;
+  }
+
+  .switch-link {
+    color: $linkBlue;
+    font-weight: 600;
+  }
+
+  .user-name {
+    font-weight: 600;
+  }
+  .name {
+    color: $darkGray;
+  }
+}
